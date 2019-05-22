@@ -1,4 +1,4 @@
-# Human authentication using Cognito
+# Basic table storage system
 
 This module provides a DynamoDB table with three predefined policies for read from, write into and administer it. As usual, it can be deployed standalone or as part of a larger setup
 
