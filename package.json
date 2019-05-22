@@ -1,12 +1,12 @@
 {
-  "name": "ddb-storage",
-  "version": "0.1.0",
+  "name": "@cdk-modules/ddb-storage",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "test": "nodeunit test/test.*.js"
+    "test": "echo 'ERROR: No tests implemented yet' && exit 1"
   },
   "devDependencies": {
     "@types/nodeunit": "^0.0.30",
@@ -14,11 +14,11 @@
     "typescript": "^3.1.2"
   },
   "peerDependencies": {
-    "@aws-cdk/cdk": "^0.22.0"
+    "@aws-cdk/cdk": "^0.31.0"
   },
   "dependencies": {
-    "@aws-cdk/aws-sns": "^0.22.0",
-    "@aws-cdk/aws-sqs": "^0.22.0",
-    "@aws-cdk/cdk": "^0.22.0"
+    "@aws-cdk/aws-dynamodb": "^0.31.0",
+    "@aws-cdk/aws-iam": "^0.31.0",
+    "@aws-cdk/cdk": "^0.31.0"
   }
 }
